@@ -13,7 +13,9 @@ x = df['height'].mean()
 df['height'].fillna(x, inplace=True)
 df['Date'] = pd.to_datetime(df['Date'])
 df.drop_duplicates(inplace = True)
+```
 
+```
 1)b) Detect and Remove Outliers:
 
 import pandas as pd
